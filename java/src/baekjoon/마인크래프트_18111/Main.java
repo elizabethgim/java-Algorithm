@@ -4,6 +4,11 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+/**
+ * 참고한 알고리즘: https://codecollector.tistory.com/678
+ * minTime값을 최대 얼마로 잡느냐에 따라 통과여부가 달라짐
+ * 지울 것(board[i][j] - h) + 인벤토리 속 블록 개수 >= 채울 것(h - board[i][j])
+ */
 public class Main {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -21,7 +26,7 @@ public class Main {
             }
         }
 
-        int minTime = 2*500*500;
+        int minTime = 100000000;
         int height = 0;
 
         int time;
