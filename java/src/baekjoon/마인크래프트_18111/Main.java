@@ -24,7 +24,7 @@ public class Main {
         int minTime = 2*500*500;
         int height = 0;
 
-        int time = 0;
+        int time;
 
         for(int h = 0; h <= 256; h++){
             int build = 0;
