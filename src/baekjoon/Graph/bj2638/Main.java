@@ -1,4 +1,4 @@
-package src.baekjoon.bj2638;
+package src.baekjoon.Graph.bj2638;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
